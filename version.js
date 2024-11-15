@@ -1,1 +1,1 @@
-export const version = 1;
+export const version = Deno.readTextFileSync("./v.txt");
